@@ -1,0 +1,24 @@
+{
+  "name": "insomnia-plugin-response-cookie",
+  "description": "Insomina plugin that adds a template tag to get the value of a cookie from another request.",
+  "version": "1.0.2",
+  "license": "MIT",
+  "author": "Dan Strokirk <dan.strokirk@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/strokirk/insomnia-plugin-response-cookie/issues"
+  },
+  "repository": "github.com:strokirk/insomnia-plugin-response-cookie",
+  "keywords": [
+    "insomnia",
+    "insomnia-plugin",
+    "plugin"
+  ],
+  "insomnia": {
+    "description": "Insomina plugin that adds a template tag to get the value of a cookie from another request.",
+    "name": "response-cookie"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "tough-cookie": "*"
+  }
+}
